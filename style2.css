@@ -1,0 +1,66 @@
+@media screen and (max-width: 375px){
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .class{
+        width: 300px;
+        display: flex;
+        flex-flow: column;
+        position: relative;
+        height: 420px;
+        
+    }
+
+    aside{
+        width: 72%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        height: 66vh;
+    }
+    .picture{
+        overflow: visible;
+    }
+
+    .boxContainer{
+        display: none;
+    }
+    .picture1{
+        position: absolute;
+        background-image: url("/home/cloud/Desktop/html/faq-accordion-card-main/images/illustration-woman-online-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 250px;
+        height: 250px;
+        left: 24px;
+        top: -116px;
+    }
+    .pictureshadow{
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 250px;
+        height: 250px;
+        top: 13px;
+        left: 37px;
+        background-image: url(/home/cloud/Desktop/html/faq-accordion-card-main/images/bg-pattern-mobile.svg);
+    }
+
+    .text{
+        padding-top: 80px;
+    }
+
+    .h2{
+        text-align: center;
+        font-size: 25px;
+        padding: 30px 10px 0px 50px;
+       
+    }
+}
